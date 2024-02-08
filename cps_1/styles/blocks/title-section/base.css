@@ -1,0 +1,44 @@
+/* Base */
+
+.title-section {
+    position: relative;
+    display: flex;
+}
+
+
+/* Title */
+
+.title-section__title {
+    margin: 0;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.title-section__title:before {
+    content: '';
+    position: absolute;
+    left: calc(-4px);
+    width: 8px;
+    height: 40px;
+    background-color: var(--color-accent-secondary);
+    border-radius: 4px;
+    
+}
+
+
+/* Features */
+
+.title-section__features {
+    margin-left: auto;
+}
+
+
+/* Button */
+
+.title-section__button {
+    padding: 0;
+}
+
+.title-section__button + .title-section__button {
+    margin-left: var(--margins-lg);
+}

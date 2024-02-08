@@ -1,0 +1,10 @@
+/* Tablet */
+
+
+@media (1120px > width >= 768px) {
+    /* Features */
+
+    .title-section__features {
+        display: none;
+    }    
+}

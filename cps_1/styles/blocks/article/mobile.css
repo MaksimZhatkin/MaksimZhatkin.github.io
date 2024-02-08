@@ -1,0 +1,38 @@
+/* Mobile */
+
+
+@media (768px > width) {
+    /* Base */
+
+    .article {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* Text Wrap */
+
+    .article__text-wrap {
+        margin-bottom: var(--margins-sm);        
+    }
+
+
+    /* Text */
+
+    .article__text {       
+        max-height: 6lh;
+        margin-bottom: var(--margins-sm);
+    }
+
+
+    /* Banner */
+
+    .article__banner {
+        object-fit: cover;
+        align-self: center;
+        height: auto;
+        width: 100vw;
+        border-radius: 0;
+        max-width: none;
+    }
+}

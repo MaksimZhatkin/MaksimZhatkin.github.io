@@ -1,0 +1,18 @@
+/* Mobile */
+
+
+@media (768px > width ) {
+   
+    /* Features*/
+
+    .header__features {
+        margin-left: auto;
+    }
+
+    
+    /* Communication */
+
+    .header__comm {
+        display: none;
+    }
+}

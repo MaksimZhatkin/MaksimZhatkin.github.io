@@ -1,0 +1,11 @@
+/* Desktop */
+
+
+@media (1120px <= width) {
+    /* Base */
+
+    .title-section {
+        padding-top: var(--margins-xl);
+        padding-bottom: var(--margins-xs);
+    }
+}

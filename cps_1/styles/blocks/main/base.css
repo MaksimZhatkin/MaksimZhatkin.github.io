@@ -1,0 +1,12 @@
+/* Base */
+
+
+/* Section */
+
+.main__section {
+    padding: 0 var(--margins-hor) var(--margins-vert);
+}
+
+.main__section_overfl_hor {
+    padding: 0 0 var(--margins-vert);
+}

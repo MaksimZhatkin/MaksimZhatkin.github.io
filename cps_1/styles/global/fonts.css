@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'TTLakes';
+    src: local('TTLakes'),
+        url('../../assets/fonts/TTLakes/Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTLakes';
+    src: local('TTLakes'),
+        url('../../assets/fonts/TTLakes/Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTLakes';
+    src: local('TTLakes'),
+        url('../../assets/fonts/TTLakes/Medium.woff') format('woff');
+        font-weight: medium;
+        font-style: normal;
+}

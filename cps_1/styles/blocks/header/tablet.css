@@ -1,0 +1,24 @@
+/* Tablet */
+
+
+@media (1120px > width >= 768px) {
+    
+    /* Logo */
+
+    .header__logo {
+        display: flex;
+        position: relative;
+        align-items: center;
+        margin-left: var(--margins-md);
+    }
+
+    .header__logo::before {
+        content: '';
+        border-radius: 1px;
+        width: 2px;
+        height: 32px;
+        background-color: var(--color-border);
+        margin-right: var(--margins-md);
+    }
+
+}

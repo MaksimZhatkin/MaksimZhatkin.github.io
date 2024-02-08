@@ -1,0 +1,12 @@
+/* Desktop */
+
+
+@media (1120px <= width) {
+    .page-nav::after {
+        display: none;
+    }
+    
+    .page-nav__list {
+        flex-wrap: wrap;        
+    }
+}

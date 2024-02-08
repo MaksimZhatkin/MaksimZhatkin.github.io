@@ -1,0 +1,45 @@
+/* Base */
+
+.article {
+    display: flex;
+}
+
+
+/* Text Wrap */
+
+.article__text-wrap {
+    flex-basis: 50%;
+    min-width: 50%;
+}
+
+
+/* Text */
+
+.article__text {
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    margin-bottom: var(--margins-sm);
+}
+
+
+/* Paragraph */
+
+.article__paragraph {
+    margin: 0;
+}
+
+.article__paragraph + .article__paragraph {
+    margin-top: 1lh;
+}
+
+
+/* Banner */
+
+.article__banner {
+    border-radius: 6px;
+    width: auto; 
+    flex-basis: 50%;
+    max-width: 50%; 
+    object-fit: cover;
+}

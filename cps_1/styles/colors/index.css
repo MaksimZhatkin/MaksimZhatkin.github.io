@@ -1,0 +1,17 @@
+/* Colors */
+
+:root {
+	--color-black: 0 0 0;
+	--color-dark: 27 28 33;
+	--color-darker: 38 39 45;
+	--color-middle: 234 234 234;
+	--color-light:  126 126 130;
+	--color-lighter:248 248 248;
+	--color-white: 255 255 255;
+
+	--color-pink: 255 62 121;
+	--color-cian: 65 246 215;
+	--color-cian-ligth: 217 255 245;
+
+
+}

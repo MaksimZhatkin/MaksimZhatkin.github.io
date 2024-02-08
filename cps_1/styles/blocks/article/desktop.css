@@ -1,0 +1,10 @@
+/* Desktop */
+
+
+@media (1120px <= width) {
+    /* Text Wrap */
+
+    .article__text-wrap {
+        padding-right: var(--margins-xxl);
+    } 
+}

@@ -1,0 +1,20 @@
+/* Tablet */
+
+
+@media (1120px > width >= 768px) {
+    
+    /* Text Wrap */
+
+    .article__text-wrap {
+        padding-right: var(--margins-xxl);
+    }  
+
+
+    /* Text */
+
+    .article__text {
+        max-height: 8lh;
+    }
+
+
+}

@@ -1,0 +1,10 @@
+/* Mobile */
+
+
+@media (768px > width ) {
+    /* Features */
+
+    .title-section__features {
+        display: none;
+    }
+}

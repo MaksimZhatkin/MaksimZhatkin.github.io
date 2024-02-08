@@ -1,0 +1,38 @@
+/* Margins */
+
+:root {
+    --margins-xxl: 48px;
+    --margins-xl: 42px;
+    --margins-lg: 32px;
+    --margins-md: 24px;
+    --margins-sm: 16px;
+    --margins-xs: 10px;
+    --margins-xxs: 8px;
+}
+
+/* Mobile */
+
+@media (768px > width ) {
+    :root {
+        --margins-vert: var(--margins-md);
+        --margins-hor: var(--margins-sm);
+    }
+}
+
+/* Tablet */
+
+@media (1120px > width >= 768px) {
+    :root {
+        --margins-vert: var(--margins-lg);
+        --margins-hor: var(--margins-md);
+    }
+}
+
+/* Desktop */
+
+@media (width >= 1120px) {
+    :root {
+        --margins-vert: var(--margins-xxl);
+        --margins-hor: var(--margins-lg);
+    }
+}
