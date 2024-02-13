@@ -1,0 +1,124 @@
+/* Base */
+
+.sidenav {
+    max-width: 320px;
+    min-height: 100vh;
+    width: 100%;
+    box-shadow: 16px 0px 52px 0px var(--color-shadow);
+    padding-top: var(--margins-sm);
+    padding-bottom: var(--margins-lg);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sidenav__header {
+    display: flex;
+    align-items: center;
+    padding-bottom: var(--margins-xl);
+    padding-inline: var(--margins-md);
+}
+
+
+/* Logo */
+
+.sidenav__logo {
+    margin-left: var(--margins-sm);
+}
+
+
+/* Search Button */
+
+.sidenav__search-btn {
+    margin-left: auto;
+}
+
+
+/* List */
+
+.sidenav__list {
+    list-style: none;
+    margin: 0;
+    margin-bottom: var(--margins-xxl);
+    padding: 0;
+    
+}
+
+
+/* Link */
+
+.sidenav__link {
+    display: block;
+    line-height: 24px;
+    position: relative;
+    padding: var(--margins-sm);
+    padding-left: var(--margins-md);
+    color: var(--color-text-primary);
+    text-decoration: none;
+    outline-offset: -1px;
+}
+
+.sidenav__link_active {
+    color: var(--color-text-secondary);
+}
+
+.sidenav__link_active::before {
+    content: '';
+    position: absolute;
+    top: 11px;
+    left: -4px;
+    width: 8px;
+    height: 32px;
+    background-color: var(--color-accent-secondary);
+    border-radius: 4px;
+}
+
+
+/* Communication */
+
+.sidenav__communication {
+    padding: 0;
+    margin: 0;
+    margin-top: auto;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: var(--margins-md);
+}
+
+
+/* Communication Feature */
+
+.sidenav__communication-feature {
+    width: 100%;
+    margin-bottom: var(--margins-xs);
+}
+
+
+.sidenav__communication-feature_btn {
+    width: auto;
+    margin-bottom: var(--margins-sm);
+}
+
+.sidenav__communication-feature_btn + .sidenav__communication-feature_btn {
+    margin-left: var(--margins-sm);
+} 
+
+
+/* Mail Link */
+
+.sidenav__mail-link {
+    color: var(--color-text-primary);
+    text-decoration: none;
+}
+
+
+/* Telephone Link */
+
+.sidenav__tel-link {
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-text-primary);
+    text-decoration: none;
+    font-weight: bold;
+}

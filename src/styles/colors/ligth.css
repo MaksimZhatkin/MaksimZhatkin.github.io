@@ -13,4 +13,5 @@
 	--color-accent: rgb(var(--color-pink));
 	--color-accent-secondary: rgb(var(--color-cian));
 	--color-accent-tertiary: rgb(var(--color-cian-ligth));
+	--color-shadow: rgb(var(--color-indigo), 0.2)
 }
