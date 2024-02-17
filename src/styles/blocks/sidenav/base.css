@@ -12,6 +12,8 @@
 }
 
 
+/* Header */
+
 .sidenav__header {
     display: flex;
     align-items: center;
@@ -62,6 +64,12 @@
     color: var(--color-text-secondary);
 }
 
+.sidenav__link_active:hover,
+.sidenav__link_active:focus {
+    cursor: default;
+    color: var(--color-text-secondary);
+}
+
 .sidenav__link_active::before {
     content: '';
     position: absolute;
@@ -94,7 +102,6 @@
     margin-bottom: var(--margins-xs);
 }
 
-
 .sidenav__communication-feature_btn {
     width: auto;
     margin-bottom: var(--margins-sm);
@@ -121,4 +128,11 @@
     color: var(--color-text-primary);
     text-decoration: none;
     font-weight: bold;
+}
+
+
+/* Lang */
+
+.sidenav__lang {
+    padding-left: var(--margins-md);
 }

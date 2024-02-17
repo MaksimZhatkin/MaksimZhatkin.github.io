@@ -1,0 +1,26 @@
+/* Base */
+
+.switch-lang {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: var(--margins-xs);
+}
+
+
+/* Link */
+
+.switch-lang__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+.switch-lang__link_active,
+.switch-lang__link_active:hover,
+.switch-lang__link_active:focus {
+    text-decoration: none;
+    color: var(--color-text-secondary);
+    cursor: default;
+}

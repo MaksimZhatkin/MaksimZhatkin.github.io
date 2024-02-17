@@ -12,11 +12,13 @@
 /* Blocks */
 
 @import url('blocks/page/index.css');
-@import url('blocks/header/index.css');
 @import url('blocks/button/index.css');
+@import url('blocks/link/index.css');
+@import url('blocks/header/index.css');
 @import url('blocks/logo/index.css');
 @import url('blocks/main/index.css');
 @import url('blocks/title-section/index.css');
 @import url('blocks/page-nav/index.css');
 @import url('blocks/article/index.css');
+@import url('blocks/switch-lang/index.css');
 @import url('blocks/sidenav/index.css');

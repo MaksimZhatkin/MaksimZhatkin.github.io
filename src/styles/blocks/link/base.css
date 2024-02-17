@@ -1,0 +1,11 @@
+/* Base */
+
+.link {
+    text-decoration: none;
+    transition: color 0.1s;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--color-accent-secondary);
+}

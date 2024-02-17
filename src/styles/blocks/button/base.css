@@ -12,11 +12,16 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    transition: border 0.2s;
+    transition: all 0.1s;
 }
 
-.button:hover {
-    border: 1px solid var(--color-accent-secondary);
+.button:hover,
+.button:focus {
+    filter: brightness(0.8);
+}
+
+.button:active {
+    transform: scale(0.95);
 }
 
 .button_round  {   
@@ -31,13 +36,25 @@
 
 .button__icon {
     padding: 0;
-    margin: 0;
+    width: 20px;
+    height: 20px;
+    color: var(--color-back-primary);
+    display: block;
 }
 
+.button__icon-wrap {
+    color: var(--color-back-primary);
+    background-color: var(--color-accent);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.button__icon-wrap + .button__label,
 .button__icon + .button__label {
     margin-left: var(--margins-xxs);
 }
 
-.button__label + .button__icon{
+.button__label + .button__icon,
+.button__label + .button__icon-wrap {
     margin-left: var(--margins-xxs);
 }

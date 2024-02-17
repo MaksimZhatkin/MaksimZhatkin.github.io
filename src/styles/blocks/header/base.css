@@ -34,7 +34,7 @@
 /* Features*/
 
 .header__features {
-    margin-left: var(--margins-sm);
+    margin-left: var(--margins-md);
     display: flex;
     align-items: center;
     gap: 16px;
@@ -52,7 +52,6 @@
 /* Feature */
 
 .header__feature {
-    margin-left: 16px;
 }
 
 
