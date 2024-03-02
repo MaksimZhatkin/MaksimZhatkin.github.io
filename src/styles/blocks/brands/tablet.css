@@ -1,0 +1,10 @@
+/* Tablet */
+
+
+@media (1120px > width >= 768px) {
+    /* Item */
+
+    .brands__item {
+        flex-basis: calc(100% / 3 - var(--margins-hor) * 2/3);
+    }
+}

@@ -1,0 +1,34 @@
+/* Base */
+
+.section {
+    padding: 0;
+    padding-bottom: var(--margins-vert);
+    border-top: solid 1px var(--color-accent-secondary);
+}
+
+
+/* Content */
+
+.section__content {
+    margin: 0;
+    padding: 0 var(--margins-hor);
+}
+
+
+.section__content_overfl_hor {
+    padding: 0;
+    padding-top: var(--margins-md);
+}
+
+/* Header */
+
+.section__header {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: var(--color-text-secondary);
+    margin: 0;
+    padding: var(--margins-sm) var(--margins-hor);
+    background: linear-gradient(to right, var(--color-back-primary), var(--color-back-secondary));
+}

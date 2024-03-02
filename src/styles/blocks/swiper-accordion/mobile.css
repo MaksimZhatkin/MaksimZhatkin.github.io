@@ -1,0 +1,34 @@
+/* Mobile */
+
+
+@media (768px > width) {
+
+    .swiper-accordion {
+        display: block;
+        align-items: start;
+    }
+
+
+    /* Wrapper */
+
+    .swiper-accordion__wrapper {
+        position: relative;
+    }
+
+    .swiper-accordion__wrapper::after {    
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: calc(100% - 12px - var(--margins-sm));
+        width: 24px;
+        background: linear-gradient(90deg, rgba(0,0,0,0) 0%,  var(--color-back-primary) 100%);
+    }
+
+
+    /* Label */
+
+    .swiper-accordion__label {
+        display: none;
+    }
+}

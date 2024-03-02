@@ -1,0 +1,12 @@
+/* Desktop */
+
+
+@media (1120px <= width) {
+    
+    /* Item */
+
+    .brands__item {
+        flex-basis: calc(100% / 4 - var(--margins-hor) * 3/4);
+    }
+
+}

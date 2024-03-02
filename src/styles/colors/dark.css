@@ -9,9 +9,9 @@
 	--color-text-primary: rgb(var(--color-white));
 	--color-text-secondary: rgb(var(--color-light));
 
-	--color-border: rgb(var(--color-middle));
+	--color-border: rgb(var(--color-dark));
 	--color-accent: rgb(var(--color-pink));
 	--color-accent-secondary: rgb(var(--color-cian));
 	--color-accent-tertiary: rgb(var(--color-cian-ligth));
-	--color-shadow: rgb(var(--color-indigo), 0.2)
+	--color-shadow: rgb(var(--colors-pink), 0.2)
 }

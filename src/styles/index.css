@@ -13,6 +13,7 @@
 
 @import url('blocks/page/index.css');
 @import url('blocks/button/index.css');
+@import url('blocks/swiper-accordion/index.css');
 @import url('blocks/link/index.css');
 @import url('blocks/header/index.css');
 @import url('blocks/logo/index.css');
@@ -22,3 +23,5 @@
 @import url('blocks/article/index.css');
 @import url('blocks/switch-lang/index.css');
 @import url('blocks/sidenav/index.css');
+@import url('blocks/section/index.css');
+@import url('blocks/brands/index.css');
