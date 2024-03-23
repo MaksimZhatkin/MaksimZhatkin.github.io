@@ -2,5 +2,20 @@
 
 
 @media (1120px <= width) {
-    
+    .sidenav {
+        flex-grow: 1;
+    }
+
+
+    /* Close */
+
+    .sidenav__close {
+        display: none;
+    }
+
+    /* Communication */
+
+    .sidenav__communication {
+        margin-top: 240px;
+    }
 }

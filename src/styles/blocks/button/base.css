@@ -13,6 +13,8 @@
     align-items: center;
     justify-content: center;
     transition: all 0.1s;
+    color: var(--color-back-primary);
+    text-decoration: none;
 }
 
 .button:hover,
@@ -24,12 +26,52 @@
     transform: scale(0.95);
 }
 
+/* Ronded */
+
 .button_round  {   
-     border-radius: 50%;
+    border-radius: 50%;
 }
 
+/* Ronded 16px */
+
+.button_round_16px {
+    border-radius: 16px;
+}
+
+/* Transparent Background */
+
 .button_bg_transparent {
+    color: var(--color-text-primary);
     background: transparent;
+}
+
+/* Bordered */
+
+.button_bordered {
+    background: transparent;
+    border: solid var(--color-accent) 2px;
+}
+
+/* Pseudo Link */
+
+.button_pseudo-link {
+    padding: 0;
+    font-weight: bold;
+    background: transparent;
+    color: var(--color-text-primary);
+    min-width: auto;
+    min-height: auto;
+}
+
+.button_pseudo-link:focus,
+.button_pseudo-link:hover {
+    text-decoration: underline;
+    filter: none;
+}
+
+.button_pseudo-link:active {
+    transform: none;
+    color: var(--color-accent);
 }
 
 /* Icon */
@@ -38,8 +80,17 @@
     padding: 0;
     width: 20px;
     height: 20px;
-    color: var(--color-back-primary);
+    color: inherit;
     display: block;
+}
+
+.button__icon_sm {
+    width: 15px;
+    height: 12px;
+}
+
+.button__icon_color_accent {
+    color: var(--color-accent);
 }
 
 .button__icon-wrap {

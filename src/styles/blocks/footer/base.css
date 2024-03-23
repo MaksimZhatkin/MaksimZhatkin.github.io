@@ -1,0 +1,26 @@
+/* Base */
+
+.footer {
+    padding: var(--margins-vert) var(--margins-hor);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--margins-xl);
+    justify-content: space-between;
+    border-top: solid 1px var(--color-accent-secondary);    
+    color: var(--color-text-secondary);
+}
+
+
+/* Link */
+
+.footer__link {
+    text-align: center;
+}
+
+
+/* Info */
+
+.footer__info {
+    text-align: end;
+}
+

@@ -1,0 +1,25 @@
+/* Mobile */
+
+
+@media (768px > width) {
+    .equipment {
+        flex-wrap: nowrap; 
+        gap: var(--margins-lg);
+    }
+
+    
+    /* Item */
+
+    .equipment__item {
+        flex-basis: 240px;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+
+    
+    /* Link */
+    
+    .equipment__link {
+        width: 100%;
+    }
+}

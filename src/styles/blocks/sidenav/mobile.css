@@ -2,5 +2,14 @@
 
 
 @media (768px > width) {
+    .sidenav {
+        padding-top: var(--margins-md);
+    }
     
+    
+    /* Link */
+
+    .sidenav__link {
+        padding: calc(var(--margins-md) / 2) var(--margins-hor);
+    }
 }

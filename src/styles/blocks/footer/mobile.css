@@ -1,0 +1,16 @@
+/* Mobile */
+
+
+@media (768px > width) {
+    .footer {
+        grid-template-columns: 1fr;
+    }
+
+    .footer__details {
+        text-align: center;
+    }
+
+    .footer__info {
+        text-align: center;
+    }
+}

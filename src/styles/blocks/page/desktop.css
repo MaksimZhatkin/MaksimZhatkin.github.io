@@ -2,5 +2,29 @@
 
 
 @media (1120px <= width) {
-    
+
+    .page {
+        background-color: var(--color-back-secondary);
+    }
+
+    /* Body */
+
+    .page__body {
+        display: flex;
+        max-width: 1600px;
+        margin-inline: auto;
+        background-color: var(--color-back-primary);
+    }
+
+
+    /* Sidenav  */
+
+    .page__sidenav {
+        position: relative;
+        transform: translateX(0)
+    }
+
+    .page__sidenav_open::after {
+        display: none;
+    }
 }

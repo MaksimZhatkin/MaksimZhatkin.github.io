@@ -21,7 +21,7 @@
     justify-content: space-between;
     align-items: center;
     height: 72px;
-    padding: var(--margins-xs);
+    padding: var(--margins-sm);
     transition: border .2s;
 }
 

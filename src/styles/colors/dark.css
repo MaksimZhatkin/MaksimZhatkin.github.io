@@ -1,17 +1,19 @@
 /* Dark Colors */
 
-:root {
-	color-scheme: dark;
-
-	--color-back-primary: rgb(var(--color-darker));
-	--color-back-secondary: rgb(var(--color-dark));
-
-	--color-text-primary: rgb(var(--color-white));
-	--color-text-secondary: rgb(var(--color-light));
-
-	--color-border: rgb(var(--color-dark));
-	--color-accent: rgb(var(--color-pink));
-	--color-accent-secondary: rgb(var(--color-cian));
-	--color-accent-tertiary: rgb(var(--color-cian-ligth));
-	--color-shadow: rgb(var(--colors-pink), 0.2)
+@media (prefers-color-scheme: dark) {
+	:root {
+		color-scheme: dark;
+	
+		--color-back-primary: rgb(var(--color-darker));
+		--color-back-secondary: rgb(var(--color-dark));
+	
+		--color-text-primary: rgb(var(--color-white));
+		--color-text-secondary: rgb(var(--color-light));
+	
+		--color-border: rgb(var(--color-darker));
+		--color-accent: rgb(var(--color-pink));
+		--color-accent-secondary: rgb(var(--color-cian));
+		--color-accent-tertiary: rgb(var(--color-cian-ligth));
+		--color-shadow: rgb(var(--colors-pink), 0.2)
+	}
 }

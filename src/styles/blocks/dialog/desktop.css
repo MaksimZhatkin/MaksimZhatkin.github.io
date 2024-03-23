@@ -1,0 +1,20 @@
+/* Desktop */
+
+
+@media (1120px <= width) {
+    .dialog {
+        max-height: none;
+        min-height: 100%;
+        margin: 0 0 0 auto;
+        border-left: solid 1px var(--color-accent-secondary);
+    }    
+
+
+    /* Close Button */
+
+    .dialog__close {
+        position: absolute;
+        top: calc(var(--margins-vert) - 6px);
+        left: calc(-1 * 40px - var(--margins-lg));
+    }
+}

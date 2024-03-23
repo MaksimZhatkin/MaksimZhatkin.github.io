@@ -1,0 +1,25 @@
+/* Base */
+
+.pagination {
+    display: none;
+    justify-content: center;
+    gap: var(--margins-xs);
+    padding-top: var(--margins-sm);
+}
+
+
+/* Bullet */
+
+.pagination__bullet {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--color-text-primary);
+    opacity: 0.2;
+    transition: all 0.2s;
+}
+
+.pagination__bullet_active {
+    opacity: 1;
+    background-color: var(--color-accent);
+}

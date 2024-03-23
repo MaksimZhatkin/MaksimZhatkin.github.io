@@ -1,12 +1,13 @@
 /* Colors */
 
 :root {
-	--color-black: 0 0 0;
+	--color-black: 10 11 15;
+	--color-darkest: 16 16 19;
 	--color-darker: 27 28 33;
 	--color-dark: 38 39 45;
 	--color-middle: 234 234 234;
-	--color-light:  126 126 130;
-	--color-lighter:248 248 248;
+	--color-light: 126 126 130;
+	--color-lighter: 248 248 248;
 	--color-white: 255 255 255;
 
 	--color-pink: 255 62 121;

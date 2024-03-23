@@ -1,0 +1,19 @@
+/* Light Colors*/
+
+@media (prefers-color-scheme: light) {
+	:root {
+		color-scheme: light;
+	
+		--color-back-primary: rgb(var(--color-lighter));
+		--color-back-secondary: rgb(var(--color-white));
+	
+		--color-text-primary: rgb(var(--color-dark));
+		--color-text-secondary: rgb(var(--color-light));
+	
+		--color-border: rgb(var(--color-middle));
+		--color-accent: rgb(var(--color-pink));
+		--color-accent-secondary: rgb(var(--color-cian));
+		--color-accent-tertiary: rgb(var(--color-cian-ligth));
+		--color-shadow: rgb(var(--color-indigo), 0.2)
+	}
+}

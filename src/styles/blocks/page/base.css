@@ -1,13 +1,14 @@
 /* Base */
 
 .page {
-	height: 100%;
+	position: relative;
 	background-color: var(--color-back-primary);
 	color: var(--color-text-primary);
 	font-family: 'TTLakes', system-ui, sans-serif;
 	font-size: 16px;
 	line-height: 1.2;
 }
+
 
 /* Body */
 
@@ -16,4 +17,43 @@
     padding: 0; 
 	height: 100%;
 	width: 100%;
+}
+
+
+/* Sidenav */
+
+.page__sidenav {
+	position: absolute;
+	z-index: var(--zindex-modal);
+	transition: all 0.2s ease ;
+	transform: translateX(-320px);
+}
+
+.page__sidenav::after {
+	content: '';
+	opacity: 0;
+	backdrop-filter: blur(0);
+	transition: opacity 0.5s ease;
+}
+
+.page__sidenav_open {
+	transform: translateX(0);
+}
+
+.page__sidenav_open::after {
+	content: '';
+	opacity: 1;
+	position: absolute;
+	z-index: var(--zindex-modal-backdrop);
+	left: 100%;
+	top: 0;
+	width: calc(100vw - 100%);
+	height: 100%;
+	backdrop-filter: blur(10px);
+}
+
+@keyframes open-sidenav {
+	from {
+
+	}
 }

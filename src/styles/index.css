@@ -1,13 +1,18 @@
 /* Fonts */
-/* Global */
 
 @import url('global/fonts.css');
+
+/* Global */
+
 @import url('global/margins.css');
 @import url('global/box-model.css');
+@import url('global/z-index.css');
 
 /* Colors */
 
 @import url('colors/index.css');
+@import url('dark.css');
+@import url('light.css');
 
 /* Blocks */
 
@@ -25,3 +30,12 @@
 @import url('blocks/sidenav/index.css');
 @import url('blocks/section/index.css');
 @import url('blocks/brands/index.css');
+@import url('blocks/equipment/index.css');
+@import url('blocks/price-list/index.css');
+@import url('blocks/price-commentary/index.css');
+@import url('blocks/pagination/index.css');
+@import url('blocks/footer/index.css');
+@import url('blocks/dialog/index.css');
+@import url('blocks/dialog-feedback/index.css');
+@import url('blocks/dialog-order-call/index.css');
+@import url('blocks/form/index.css');

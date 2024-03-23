@@ -18,6 +18,7 @@
 .section__content_overfl_hor {
     padding: 0;
     padding-top: var(--margins-md);
+    overflow: hidden;
 }
 
 /* Header */

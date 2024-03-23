@@ -1,0 +1,21 @@
+/* Base */
+
+.price-commentary {
+    padding-top: var(--margins-md);
+    font-size: 14px;
+}
+
+/* Text */
+
+.price-commentary__text {
+    max-width: 420px;
+    margin: 0;
+    margin-bottom: var(--margins-xs);
+}
+
+
+/* Button */
+
+.price-commentary__button {
+    font-size: 16px;
+}

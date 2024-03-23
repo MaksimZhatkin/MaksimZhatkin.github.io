@@ -1,0 +1,8 @@
+/* Mobile */
+
+
+@media (768px > width) {
+    .pagination {
+        display: flex;
+    }
+}

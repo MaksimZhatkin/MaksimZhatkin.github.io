@@ -1,14 +1,15 @@
 /* Base */
 
 .sidenav {
+    display: flex;
+    flex-direction: column;
     max-width: 320px;
     min-height: 100vh;
     width: 100%;
-    box-shadow: 16px 0px 52px 0px var(--color-shadow);
-    padding-top: var(--margins-sm);
+    /* box-shadow: 16px 0px 52px 0px var(--color-shadow); */
+    padding-top: var(--margins-xl);
     padding-bottom: var(--margins-lg);
-    display: flex;
-    flex-direction: column;
+    background-color: var(--color-back-secondary);
 }
 
 
@@ -17,8 +18,8 @@
 .sidenav__header {
     display: flex;
     align-items: center;
-    padding-bottom: var(--margins-xl);
-    padding-inline: var(--margins-md);
+    padding-bottom: var(--margins-lg);
+    padding-inline: var(--margins-hor);
 }
 
 
@@ -41,7 +42,7 @@
 .sidenav__list {
     list-style: none;
     margin: 0;
-    margin-bottom: var(--margins-xxl);
+    margin-bottom: var(--margins-vert);
     padding: 0;
 }
 
@@ -52,8 +53,8 @@
     display: block;
     line-height: 24px;
     position: relative;
-    padding: var(--margins-sm);
-    padding-left: var(--margins-md);
+    padding: calc(var(--margins-lg) / 2) ;
+    padding-left: var(--margins-hor);
     color: var(--color-text-primary);
     text-decoration: none;
     outline-offset: -1px;
@@ -72,7 +73,7 @@
 .sidenav__link_active::before {
     content: '';
     position: absolute;
-    top: 11px;
+    top: calc(var(--margins-vert) / 3);
     left: -4px;
     width: 8px;
     height: 32px;
@@ -86,11 +87,10 @@
 .sidenav__communication {
     padding: 0;
     margin: 0;
-    margin-top: auto;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    padding-left: var(--margins-md);
+    padding-left: var(--margins-hor);
 }
 
 
@@ -133,5 +133,5 @@
 /* Lang */
 
 .sidenav__lang {
-    padding-left: var(--margins-md);
+    padding-left: var(--margins-hor);
 }
