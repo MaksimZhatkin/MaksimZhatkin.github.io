@@ -46,6 +46,12 @@
     background: transparent;
 }
 
+.button_bg_transparent:hover, 
+.button_bg_transparent:focus {
+    color: var(--color-accent-secondary);
+    box-shadow: none;
+}
+
 /* Bordered */
 
 .button_bordered {
