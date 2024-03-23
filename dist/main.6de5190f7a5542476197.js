@@ -1,6 +1,27 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ 178:
+/***/ (() => {
+
+const controls = document.querySelectorAll('.js-accordion-button');
+controls.forEach(control => {
+  control.addEventListener('click', () => {
+    const accordion = document.querySelector(`#${control.getAttribute('aria-controls')}`);
+    if (accordion.getAttribute('data-expanded') == 'false') {
+      accordion.setAttribute('data-expanded', true);
+      control.setAttribute('aria-expanded', true);
+      control.querySelector('.js-accordion-button-label').textContent = 'Скрыть';
+    } else if (accordion.getAttribute('data-expanded') == 'true') {
+      accordion.setAttribute('data-expanded', false);
+      control.setAttribute('aria-expanded', false);
+      control.querySelector('.js-accordion-button-label').textContent = 'Показать все';
+    }
+  });
+});
+
+/***/ }),
+
 /***/ 50:
 /***/ (() => {
 
@@ -9495,7 +9516,10 @@ const swiper = new Swiper('.js-swiper', {
 var dialog = __webpack_require__(50);
 // EXTERNAL MODULE: ./src/scripts/sidenav.js
 var sidenav = __webpack_require__(436);
+// EXTERNAL MODULE: ./src/scripts/accordion.js
+var accordion = __webpack_require__(178);
 ;// CONCATENATED MODULE: ./src/scripts/index.js
+
 
 
 
@@ -9504,4 +9528,4 @@ var sidenav = __webpack_require__(436);
 
 /******/ })()
 ;
-//# sourceMappingURL=main.9d52a570081b467ed724.js.map
+//# sourceMappingURL=main.6de5190f7a5542476197.js.map
