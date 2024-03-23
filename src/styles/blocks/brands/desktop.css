@@ -3,10 +3,19 @@
 
 @media (1120px <= width) {
     
+    
     /* Item */
-
+    
     .brands__item {
         flex-basis: calc(100% / 4 - var(--margins-hor) * 3/4);
     }
-
+    
+    
+    /* Logo */
+    
+    .brands__logo {
+        max-width: min(10vw, 95px);
+        width: 100%;
+        object-fit: contain;
+    }
 }

@@ -27,14 +27,14 @@
     }
 
 
-    /* Label */
+    /* Button */
 
-    .swiper-accordion__label {
+    .swiper-accordion__button {
         display: none;
     }
 
-
     /* Pagination */
+
     .swiper-accordion__pagination {
         display: flex;
     }

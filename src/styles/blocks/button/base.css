@@ -12,14 +12,15 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.1s;
+    transition: all .2s;
     color: var(--color-back-primary);
     text-decoration: none;
+    box-shadow: 0 0 0 var(--color-accent);
 }
 
 .button:hover,
 .button:focus {
-    filter: brightness(0.8);
+    box-shadow: 0 0 10px var(--color-accent);
 }
 
 .button:active {
@@ -66,7 +67,7 @@
 .button_pseudo-link:focus,
 .button_pseudo-link:hover {
     text-decoration: underline;
-    filter: none;
+    box-shadow: none;
 }
 
 .button_pseudo-link:active {
@@ -124,7 +125,7 @@
 
 .button_accordion_control:hover,
 .button_accordion_control:focus {
-    filter: none;
+    box-shadow: none;
     background-color: var(--color-back-secondary);
 }
 

@@ -30,5 +30,11 @@
     max-height: 100vh;
     height: 100vh;
     backdrop-filter: blur(10px);
+    opacity: 0;
     overflow: hidden;
+    transition: all .25s;
+}
+
+.dialog[aria-hidden='false']::backdrop {
+    opacity: 1;
 }
