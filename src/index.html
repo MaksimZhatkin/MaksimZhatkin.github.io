@@ -205,7 +205,7 @@
     
             <section class="main__section article">
                 <div class="article__text-wrap">
-                    <div class="article__text">
+                    <div id="article-text" data-expanded="false" class="article__text">
                         <p class="article__paragraph">
                             Мы являемся авторизованным сервисным центром по ремонту техники Dell. 
                             Только у нас вы можете отремонтировать свой ноутбук Dell с официальной
@@ -216,12 +216,18 @@
                             Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера,
                             что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
                         </p>
+                        <p class="article__paragraph">
+                            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера,
+                            что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера,
+                            что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                        </p>
                     </div>
-                    <button href="#" class="article__more button  button_bg_transparent">
-                        <svg class="button__icon button__icon" width="20" height="20" >
+                    <button aria-controls="article-text" aria-expanded="false" class="js-accordion-button button button_accordion_control">
+                        <svg class="button__icon button__icon_sm" width="20" height="20" >
                             <use href="img/sprite.svg#double-arrow"/>
                         </svg> 
-                        <span class="button__label">
+                        <span class="js-accordion-button-label button__label">
                             Читать далее
                         </span>
                     </button>
@@ -238,14 +244,21 @@
                 <h2 class="section__header">Ремонт техники различных брендов</h2>
                 <div class="section__content section__content_overfl_hor swiper-accordion">
                     
-                    <input type="checkbox" id="brands-see-more" class="swiper-accordion__checkbox">
-                    <label for="brands-see-more" class="swiper-accordion__label">
-                        <svg class="swiper-accordion__icon" width="16" height="16" >
+                    <button aria-controls="accordion-brands" aria-expanded="false" class="
+                    js-accordion-button 
+                    button
+                    button_accordion_control
+                    swiper-accordion__button
+                    ">
+                        <svg class="button__icon button__icon_sm" width="20" height="20" >
                             <use href="img/sprite.svg#double-arrow"/>
                         </svg> 
-                        
-                    </label>
-                    <div class="js-swiper swiper-accordion__wrapper">
+                        <span class="js-accordion-button-label button__label">
+                            Читать далее
+                        </span>
+                    </button>
+
+                    <div id="accordion-brands" data-expanded="false" class="js-swiper swiper-accordion__wrapper">
                         <ul class="js-swiper-wrapper swiper-accordion__content brands">
                             <li class="js-swiper-slide brands__item">
                                 <a href="#" class="brands__link">
@@ -358,14 +371,21 @@
                 <h2 class="section__header">Ремонт различных видов техники</h2>
                 <div class="section__content section__content_overfl_hor swiper-accordion">
                     
-                    <input type="checkbox" id="equipment-see-more" class="swiper-accordion__checkbox">
-                    <label for="equipment-see-more" class="swiper-accordion__label">
-                        <svg class="swiper-accordion__icon" width="16" height="16" >
+                    <button aria-controls="accordion-equipment" aria-expanded="false" class="
+                    js-accordion-button 
+                    button
+                    button_accordion_control
+                    swiper-accordion__button
+                    ">
+                        <svg class="button__icon button__icon_sm" width="20" height="20" >
                             <use href="img/sprite.svg#double-arrow"/>
                         </svg> 
-                    </label>
+                        <span class="js-accordion-button-label button__label">
+                            Читать далее
+                        </span>
+                    </button>
     
-                    <div class="js-swiper swiper-accordion__wrapper">
+                    <div id="accordion-equipment" data-expanded="false" class="js-swiper swiper-accordion__wrapper">
                         <ul class="js-swiper-wrapper swiper-accordion__content equipment">
     
                             <li class="js-swiper-slide equipment__item">
@@ -629,7 +649,7 @@
         <form class="form" method="dialog" action=" ">
 
             <input class="form__input" placeholder="Имя" required name="name" type="text">
-            <input class="form__input" placeholder="Телефона" required name="tel" type="number">
+            <input class="form__input" placeholder="Телефон" required name="tel" type="number">
             <input class="form__input" placeholder="Электронная почта" required name="mail" type="email">
             <textarea class="form__input" placeholder="Сообщение (необязательно)" name="message" type="text" rows="4"></textarea>
 

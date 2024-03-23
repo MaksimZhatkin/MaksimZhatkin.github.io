@@ -20,8 +20,12 @@
     line-height: 20px;
     overflow: hidden;
     margin-bottom: var(--margins-sm);
+    max-height: 8lh;
 }
 
+.article__text[data-expanded='true'] {
+    max-height: none;
+}
 
 /* Paragraph */
 

@@ -16,6 +16,6 @@
     /* Communication */
 
     .sidenav__communication {
-        margin-top: 240px;
+        margin-top: min(100px, 10vh);
     }
 }

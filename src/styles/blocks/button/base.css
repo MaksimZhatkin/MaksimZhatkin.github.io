@@ -82,6 +82,7 @@
     height: 20px;
     color: inherit;
     display: block;
+    transition: all 0.3s ease;
 }
 
 .button__icon_sm {
@@ -108,4 +109,25 @@
 .button__label + .button__icon,
 .button__label + .button__icon-wrap {
     margin-left: var(--margins-xxs);
+}
+
+
+/* Accordion Control */
+
+.button_accordion_control {
+    color: var(--color-text-primary);
+    background: transparent;
+    border-radius: 6px;
+    padding-inline: var(--margins-xs);
+}
+
+
+.button_accordion_control:hover,
+.button_accordion_control:focus {
+    filter: none;
+    background-color: var(--color-back-secondary);
+}
+
+.button_accordion_control[aria-expanded = 'true'] > .button__icon {
+    transform: rotate(180deg);
 }

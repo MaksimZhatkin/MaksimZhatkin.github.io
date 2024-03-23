@@ -9,12 +9,11 @@
 
 /* Label */
 
-.swiper-accordion__label {
+.swiper-accordion__button {
     display: flex;
     align-items: center;
     align-self: flex-start;
     border-radius: 6px;
-    padding: 4px;
     transition: background .2s;
     margin-top: var(--margins-md);
     margin-left: var(--margins-hor);
@@ -27,40 +26,15 @@
     margin-left: var(--margins-xxs);
 }
 
-.swiper-accordion__label:hover,
-.swiper-accordion__label:focus {
-    background-color: var(--color-back-secondary);
-}
-
-/* Checkbox */
-
-.swiper-accordion__checkbox {
-    position: absolute;
-    top: 0;
-    left: 0;
-    visibility: hidden;
-    width: 0;
-    height: 0;
-}
-
-.swiper-accordion__checkbox:checked + .swiper-accordion__label::after {
-    content: 'Скрыть';
-}
-
-.swiper-accordion__checkbox {
-    visibility: hidden;
-}
-
 
 /* Wrapper */
 
 .swiper-accordion__wrapper {
     max-height: calc(72px * 2 + var(--margins-sm));
-    max-width: 100%;
     overflow: hidden;
 }
 
-.swiper-accordion__checkbox:checked ~ .swiper-accordion__wrapper {
+.swiper-accordion__wrapper[data-expanded='true']{
     max-height: 9999px;
 }
 
